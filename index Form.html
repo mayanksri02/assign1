@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form page</title>
+</head>
+<body>
+    <h2 align="center">Sign Up Form</h2>
+    <form>
+        <div align="center"><label for="name">Name :</label>
+        <input required type="text" name="myname" id="name">
+        </div>
+        <br>
+        <div align="center">
+        <label for="mail">Email :</label>
+        <input required type="email" name="myemail" id="mail">
+        </div><br>
+        <div align="center">
+        <label for="password">Password :</label>
+        <input required type="password" name="mypass" id="password">
+        </div><br>
+        <div align="center">
+        <label for="dob">Date Of Birth :</label>
+        <input required type="date" name="mydob" id="dob">
+        </div><br>
+        <div align="center">
+        <label for="gen">Gender :</label>
+        Male<input type="radio" name="mygender" id="gen"> Female<input type="radio" name="mygender" id="gen">
+        </div><br>
+        <div align="center">
+        <label for="state">State :</label>
+        <select name="mystate" id="state">
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Chasttishgarh">Chasttishgarh</option>
+        </select>
+        </div><br>
+        <div align="center">
+        <label for="feedback">Feedback :</label><br>
+        <textarea name="myfeed" id="feedback" cols="20" rows="10"></textarea></div><br>
+        <div align="center"><input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET"></div>
+    </form>
+</body>
+</html>
